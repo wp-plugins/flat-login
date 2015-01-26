@@ -1,0 +1,37 @@
+
+body.login { background-color: #1abc9c; }
+body.login div#login { font-family: 'Roboto'; }
+body.login div#login h1 {}
+body.login div#login h1 a {}
+body.login div#login form#loginform { box-shadow: none !important; }
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label { font-family: 'Roboto'; }
+body.login div#login form#loginform input { font-family: 'Roboto'; }
+body.login div#login form#loginform input#user_login { background-color: #fff !important; }
+body.login div#login form#loginform input#user_pass { background-color: #fff !important; }
+body.login div#login form#loginform p.forgetmenot { margin-bottom: 15px;}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme { }
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit { font-family: 'Roboto'; font-size: 14px; background: #1abc9c; width: 100%; height: 40px; border: 0 !important; box-shadow: none !important; border-radius: 0 !important; }
+body.login div#login p#nav {}
+body.login div#login p#nav a { font-family: 'Roboto'; color: #fff; text-shadow: 0px 1px 0px #000; }
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a { font-family: 'Roboto'; color: #fff; text-shadow: 0px 1px 0px #000; }
+
+#extra { 
+  width: 100%;
+  height: 40px;
+  margin: 80px 0 0;
+  background-color: #e74c3c;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#extra a {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 40px;
+}

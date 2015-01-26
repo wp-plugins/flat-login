@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Flat Login\n"
+"POT-Creation-Date: 2015-01-22 18:07+0330\n"
+"PO-Revision-Date: 2015-01-22 18:35+0330\n"
+"Last-Translator: \n"
+"Language-Team: iMohammad <tinco4u@gmail.com>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/flat-login-settings.php:21
+msgid "Flat Login"
+msgstr "فلت لاگین"
+
+#: ../inc/flat-login-settings.php:29
+msgid "Flat Login Theme Settings"
+msgstr "تنظیمات پوسته‌ی فلت لاگین"
+
+#: ../inc/flat-login-settings.php:32
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد!"
+
+#: ../inc/flat-login-settings.php:41
+msgid "Customize"
+msgstr "شخصی سازی"
+
+#: ../inc/flat-login-settings.php:45
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: ../inc/flat-login-settings.php:47
+msgid "Active this option to see the custom styles settings."
+msgstr "برای دیدن تنظیمات سفارشی صفحه لاگین این گزینه را فعال کنید."
+
+#: ../inc/flat-login-settings.php:52
+msgid "Login logo URL"
+msgstr "آدرس لوگوی لاگین"
+
+#: ../inc/flat-login-settings.php:58
+msgid "Enter an URL or upload an image for the logo."
+msgstr ""
+"در این بخش، می‌توانید لوگوی خود را برای نمایش در صفحه‌ی لاگین انتخاب و "
+"بارگذاری کنید."
+
+#: ../inc/flat-login-settings.php:63
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: ../inc/flat-login-settings.php:89
+msgid "choose the background Color."
+msgstr "رنگ پس‌زمینه صفحه‌ی لاگین را انتخاب کنید."
