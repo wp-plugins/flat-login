@@ -2,14 +2,15 @@
 	function flat_login_stylesheet() 
 	{
 		if(get_option('flat_custom_style')){
-		wp_enqueue_script('jquery');
-		if (is_rtl()) {
-			wp_enqueue_style( 'login-head', plugins_url('assets/css/flat-login-style_rtl.css', dirname(__FILE__)), false );
-		} else {
-			wp_enqueue_style( 'login-head', plugins_url('assets/css/flat-login-style.css', dirname(__FILE__)), false );
-			wp_enqueue_style( 'login-headdd', 'http://fonts.googleapis.com/css?family=Roboto', false );
-		}
-	    wp_enqueue_script( 'login-head', plugins_url('assets/js/flat-login-js.js', dirname(__FILE__)), false );
+			wp_enqueue_script('jquery');
+				if (is_rtl()) {
+					wp_enqueue_style( 'login-head', plugins_url('assets/css/flat-login-style_rtl.css', dirname(__FILE__)), false );
+					wp_enqueue_script( 'login-head', plugins_url('assets/js/flat-login-js-fa.js', dirname(__FILE__)), false );
+				} else {
+					wp_enqueue_style( 'login-head', plugins_url('assets/css/flat-login-style.css', dirname(__FILE__)), false );
+					wp_enqueue_style( 'login-headdd', 'http://fonts.googleapis.com/css?family=Roboto', false );
+					wp_enqueue_script( 'login-head', plugins_url('assets/js/flat-login-js.js', dirname(__FILE__)), false );
+				}
 		}
 	}
 

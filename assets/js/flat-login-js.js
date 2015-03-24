@@ -10,6 +10,11 @@ jQuery(document).ready(function($) {
 		$(this).html($(this).html().replace("Password", ""));
 	});
 
+	$('form#loginform p label').each( function() {
+		$(this).html($(this).html().replace("شناسه", ""));
+		$(this).html($(this).html().replace("رمز", ""));
+	});
+
 	$('#login h1').addClass('fade one');
 	$('#loginform').addClass('fade two');
 	$('#backtoblog').addClass('fade three');

@@ -4,7 +4,7 @@ Tags: Login page, Flat, Flat Login page, rtl, wp-login, admin, customize wp-logi
 Donate link: http://imohammad.ir
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,9 @@ A WordPress plugin that changes your usual wordpress login page to a flat one. A
 1. Preview
 
 == Changelog ==
+
+= 2.1 =
+* Some problems solved in Persian version
 
 = 2.0 =
 * Add icons to Login inputs
