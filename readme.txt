@@ -23,12 +23,12 @@ A WordPress plugin that changes your usual wordpress login page to a flat one. A
 
 == Changelog ==
 
-= 1.0 =
-* First Release.
-
 = 2.0 =
 * add icons to Login inputs
 * add options to set width & height
 * add animations to Login page
 * Now, you can set your favorite color
 * Improved plugin codes
+
+= 1.0 =
+* First Release.
