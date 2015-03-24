@@ -25,6 +25,8 @@ License: GPLv2 or later
 		add_option('flat_logo_upload', '', '', 'yes');
 		add_option('flat_bg_color', '#1abc9c', '', 'yes');
 		add_option('flat_custom_style', '0', '', 'yes');
+		add_option('flat_logo_width', '', '', 'yes');
+		add_option('flat_logo_height', '', '', 'yes');
 	}
 	
 	register_uninstall_hook(__FILE__, 'flat_login_unset_options');
@@ -32,6 +34,8 @@ License: GPLv2 or later
 		delete_option('flat_logo_upload');
 		delete_option('flat_bg_color');
 		delete_option('flat_custom_style');
+		delete_option('flat_logo_width');
+		delete_option('flat_logo_height');
 	}
 
 	require_once FLAT_LOGIN_DIR . '/inc/flat-login-functions.php';
