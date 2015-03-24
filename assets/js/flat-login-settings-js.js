@@ -45,22 +45,14 @@ jQuery(document).ready(function($){
     }
 
     $('#flat_custom_style').click(evaluate).each(evaluate); 
- 
-    $('select[name="colorpicker"]').simplecolorpicker();
 
-    $('.simplecolorpicker span').live('click', function() {
-        $('.simplecolorpicker span').removeClass('overlay');
-        $(this).addClass('overlay');
-    });
-
-    $('select[name="colorpicker"]').change(function() {
-        $('#flat_bg_color').val($(this).val());
-    });
-
-    $('.simplecolorpicker span').each(function() {
-        if($(this).attr('data-color') == $('#flat_bg_color').val()){
-            $(this).addClass('overlay');
-        }
+    $('#flat_bg_color').wpColorPicker({
+        width: 400,
+        palettes: [ '#1abc9c', '#16a085', '#2ecc71', '#27ae60',
+                    '#3498db', '#2980b9', '#9b59b6', '#8e44ad',
+                    '#34495e', '#2c3e50', '#f1c40f', '#f39c12',
+                    '#e67e22', '#d35400', '#e74c3c', '#c0392b'
+                  ]
     });
  
 });

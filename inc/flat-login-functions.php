@@ -29,10 +29,21 @@
 			}
 <?php } else { ?>
 			body.login div#login h1 a {
-				-webkit-filter: grayscale(100%); filter: grayscale(100%);
+				background-image: url('<?php echo plugin_dir_url( __FILE__ ).'../assets/images/Wordpress-logo.png'; ?>') !important;
+				background-size: 100px !important;
+				width: 100px !important;
+				height: 100px !important;
 			}
 <?php } ?>
-		</style>
+		
+<?php if (get_option('flat_logo_width') != null && get_option('flat_logo_height') != null ) { ?>
+			body.login div#login h1 a {
+				background-size: <?php echo get_option('flat_logo_width'); ?>px <?php echo get_option('flat_logo_height'); ?>px !important;
+				width: <?php echo get_option('flat_logo_width'); ?>px !important;
+				height: <?php echo get_option('flat_logo_height'); ?>px !important;
+			}
+<?php } ?>
+</style>
 <?php
 		}
 	}

@@ -4,14 +4,14 @@ Tags: Login page, Flat, Flat Login page, rtl, wp-login, admin, customize wp-logi
 Donate link: http://imohammad.ir
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A WordPress plugin that changes your usual Wordpress login page to a flat one.
+A WordPress plugin that changes your usual wordpress login page to a flat one.
 
 == Description ==
-A WordPress plugin that changes your usual Wordpress login page to a flat one. Also you can change login logo and background color.
+A WordPress plugin that changes your usual wordpress login page to a flat one. Also you can change login logo and background color.
 
 == Installation ==
 1. Upload plugin folder to the `/wp-content/plugins/` directory
@@ -25,3 +25,10 @@ A WordPress plugin that changes your usual Wordpress login page to a flat one. A
 
 = 1.0 =
 * First Release.
+
+= 2.0 =
+* add icons to Login inputs
+* add options to set width & height
+* add animations to Login page
+* Now, you can set your favorite color
+* Improved plugin codes

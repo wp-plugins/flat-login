@@ -4,7 +4,7 @@
 Plugin Name: Flat Login
 Plugin URI: http://wordpress.org/plugins/flat-login
 Description: A WordPress plugin that changes your usual wordpress login page to a flat one.
-Version: 1.0
+Version: 2.0
 Author: Mohammad Reza Vafaei
 Author URI: http://imohammad.ir
 License: GPLv2 or later
